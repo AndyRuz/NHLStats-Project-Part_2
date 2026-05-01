@@ -1,12 +1,13 @@
-# NHL Player Performance Analysis (2004-2018)
+# NHL Data Analysis (2004-2018)
 ### CS3120 Final Project — Part 2
+Andy Ruzicka
 
 This repository contains the Jupyter notebook for my CS3120 final project,
 which uses NHL skater data to investigate three machine-learning questions
 about player performance.
 
 ## Files
-
+**`I do NOT own any of these provided data files from Kaggle: (Author: Xavya77)`**
 - **`NHL_Final_Project.ipynb`** — the main notebook containing EDA, model
   fitting, and conclusions. View it directly in GitHub or open it in
   Jupyter / Colab.
@@ -16,7 +17,7 @@ about player performance.
 
 ## Research Questions
 
-1. **Can a player's total points (PTS) be predicted from peripheral
+1. **Can a player's total points (Goals + Assists) be predicted from peripheral
    statistics** like time on ice, shots on goal, age, and position?
 2. **Can we classify whether a player is a forward or a defenseman** using
    only their statistical profile (without seeing the position label)?

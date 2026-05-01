@@ -2,18 +2,17 @@
 ### CS3120 Final Project — Part 2
 Andy Ruzicka
 
+
 This repository contains the Jupyter notebook for my CS3120 final project,
 which uses NHL skater data to investigate three machine-learning questions
 about player performance.
 
 ## Files
-**`I do NOT own any of these provided data files from Kaggle: (Author: Xavya77)`**
+**`Original data pulled from Kaggle (https://www.kaggle.com/datasets/xavya77/nhl04to18) [Author: Xavya77]`**
+
 - **`NHL_Final_Project.ipynb`** — the main notebook containing EDA, model
-  fitting, and conclusions. View it directly in GitHub or open it in
-  Jupyter / Colab.
-- **`nhl_data.csv`** — the cleaned source dataset (NHL skater season-level
-  statistics, 2004-05 through 2017-18), originally from
-  [Kaggle](https://www.kaggle.com/datasets/xavya77/nhl04to18).
+  fitting, and conclusions.
+- **`nhl_data.csv`** — the cleaned source dataset (NHL 2014-2015 thru 2017-2018 seasons)
 
 ## Research Questions
 

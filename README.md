@@ -1,16 +1,16 @@
 # NHL Data Analysis (2004-2018)
 ### CS3120 Final Project — Part 2
-Andy Ruzicka
+### Andy Ruzicka
 
 
 This repository contains the Jupyter notebook for my CS3120 final project,
-which uses NHL skater data to investigate three machine-learning questions
+which uses NHL skater data to investigate three machine-learning hypotheses
 about player performance.
 
 ## Files
 **`Original data pulled from Kaggle (https://www.kaggle.com/datasets/xavya77/nhl04to18) [Author: Xavya77]`**
 
-- **`NHL_Final_Project.ipynb`** — the main notebook containing EDA, model
+- **`nhl-final-project-andy-ruzicka.ipynb`** — the main notebook containing EDA, model
   fitting, and conclusions.
 - **`nhl_data.csv`** — the cleaned source dataset (NHL 2014-2015 thru 2017-2018 seasons)
 
@@ -21,7 +21,7 @@ about player performance.
 2. **Can we classify whether a player is a forward or a defenseman** using
    only their statistical profile (without seeing the position label)?
 3. **Does age have a measurable relationship with offensive production**,
-   and is there a "peak age" curve?
+   and is there a "golden age" curve?
 
 ## Methods
 
@@ -42,18 +42,15 @@ about player performance.
 | Q2: Classify F vs D | Logistic Regression | Test AUC | 0.98 |
 | Q3: Age effect on PPG | Gradient Boosting | CV R² | 0.75 |
 
-For the full discussion of findings — including the surprising result that
-Q3's apparent "peak age" effect is largely an opportunity / selection
-artifact — see the conclusions section in the notebook.
+For the full discussion of findings, see the "Conclusions" section in the notebook.
 
 ## How to Run
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
-jupyter notebook NHL_Final_Project.ipynb
+jupyter notebook nhl-final-project-andy-ruzicka.ipynb
 ```
 
 ## AI Tools Used
 
-Claude (Anthropic) was used throughout this project for exploration,
-modeling design, code generation, and writing.
+Claude was used for this project for exploration, modeling design, and code generation.

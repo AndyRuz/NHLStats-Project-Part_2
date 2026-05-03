@@ -13,6 +13,7 @@ about player performance.
 - **`nhl-final-project-andy-ruzicka.ipynb`** — the main notebook containing EDA, model
   fitting, and conclusions.
 - **`nhl_data.csv`** — the cleaned source dataset (NHL 2014-2015 thru 2017-2018 seasons)
+- **`https://www.kaggle.com/code/andyrose18/nhl-final-project-andy-ruzicka`** Kaggle Jupyter Notebook Public Link (*Just in Case*)
 
 ## Research Questions
 
